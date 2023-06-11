@@ -1,3 +1,7 @@
+http 
 https://openjdk.org/groups/net/httpclient/recipes.html
 https://github.com/simple-http/simple-http/tree/master/src
 https://github.com/IntellectualSites/HTTP4J
+
+plugin
+https://github.com/pf4j/pf4j
