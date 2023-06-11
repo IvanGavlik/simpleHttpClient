@@ -35,6 +35,17 @@ import java.util.Collection;
  *
  * Adapter
  * - something that client uses
+ *
+ * Based on how HttpClient api works Kernel will call
+ *  client.send(request, paramsOther)
+ *  where request ( HttpClient.Builder) is going to be build using internal and external services
+ *  (order might not be important)
+ *  for request should I used wrapper class
+ *
+ *
+ *  One more idea OSGi
+ *  - https://hackernoon.com/what-is-osgi-an-intro-to-the-open-service-gateway-initiative?ref=hackernoon.com
+ *
  */
 public class Main {
     public static void main(String[] args) {
