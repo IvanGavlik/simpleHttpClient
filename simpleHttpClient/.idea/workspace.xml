@@ -5,14 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6a17d8-8906-4ffd-a070-5afd23f16618" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc3/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc3/scratch.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc4/TracCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc4/scratch.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/mk/MK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/plugin/Dependency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/plugin/HttpSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/plugin/HttpSendExtended.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/plugin/HttpSendInf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/Dependency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/DependencyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/DependencyInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/DiscoveringClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/Extension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/ExtensionPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/Plugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/process/DependencyInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/process/StartUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/scratch.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArchitectureDecisions.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../ArchitectureDecisions.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Requirments.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../Requirments.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebServerForTesting.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../WebServerForTesting.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/CsvExporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/Exportable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/Exporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/User$HtmlExport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/User$PdfExport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +48,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2OmsOTTPKx9BGkNrLEONki3Dd9U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,6 +75,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ivan/Documents/projects/simpleHttpClient/simpleHttpClient/src/main/java/com/ivangavlik/http/poc5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,15 +85,34 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;
+    ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ivangavlik.http.Main" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc3" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MK">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ivangavlik.http.poc3.App" />
       <module name="simpleHttpClient" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ivangavlik.http.*" />
+          <option name="PATTERN" value="com.ivangavlik.http.poc3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ivangavlik.http.Main" />
+    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ivangavlik.http.poc5.app.App2" />
       <module name="simpleHttpClient" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ivangavlik.http.*" />
+          <option name="PATTERN" value="com.ivangavlik.http.poc5.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +133,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ivangavlik.http.Main" />
+    <configuration name="DiscoveringClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ivangavlik.http.poc5.reflection.DiscoveringClasses" />
       <module name="simpleHttpClient" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ivangavlik.http.*" />
+          <option name="PATTERN" value="com.ivangavlik.http.poc5.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ivangavlik.http.poc5.mk.MK" />
+      <module name="simpleHttpClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivangavlik.http.poc5.mk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ivangavlik.http.poc5.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ivangavlik.http.poc5.App" />
+      <module name="simpleHttpClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivangavlik.http.poc5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,9 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.MK" />
+        <item itemvalue="Application.App2" />
+        <item itemvalue="Application.DiscoveringClasses" />
+        <item itemvalue="Application.com.ivangavlik.http.poc5.App" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -119,11 +199,113 @@
       <workItem from="1683141996925" duration="7000" />
       <workItem from="1683293923933" duration="11000" />
       <workItem from="1683294041684" duration="14000" />
-      <workItem from="1683576264607" duration="1275000" />
+      <workItem from="1683576264607" duration="4763000" />
+      <workItem from="1683662111280" duration="97000" />
+      <workItem from="1683666040591" duration="77000" />
+      <workItem from="1683748533903" duration="8000" />
+      <workItem from="1686495233621" duration="6377000" />
+      <workItem from="1686767150993" duration="960000" />
+      <workItem from="1687460284427" duration="723000" />
+      <workItem from="1687623060901" duration="2075000" />
+      <workItem from="1687684918681" duration="40000" />
+      <workItem from="1687708237579" duration="21000" />
+      <workItem from="1687958786663" duration="1003000" />
+      <workItem from="1687960534263" duration="2346000" />
+      <workItem from="1688198733293" duration="610000" />
+      <workItem from="1688220223559" duration="8000" />
+      <workItem from="1688221365188" duration="2307000" />
+      <workItem from="1688321874799" duration="19000" />
+      <workItem from="1688329457558" duration="3000" />
+      <workItem from="1688892968733" duration="5000" />
+      <workItem from="1690008835725" duration="9379000" />
+      <workItem from="1690105506444" duration="8347000" />
+      <workItem from="1690132602868" duration="1029000" />
+      <workItem from="1690229692071" duration="1941000" />
+      <workItem from="1690386550584" duration="9563000" />
+      <workItem from="1690481183601" duration="763000" />
+      <workItem from="1690484455108" duration="1086000" />
+      <workItem from="1690488252910" duration="3987000" />
+      <workItem from="1690642913530" duration="1221000" />
+      <workItem from="1691067524729" duration="5206000" />
     </task>
+    <task id="LOCAL-00001" summary="poc first">
+      <created>1686496009043</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686496009043</updated>
+    </task>
+    <task id="LOCAL-00002" summary="poc second">
+      <created>1686496032511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686496032511</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="poc first" />
+    <MESSAGE value="poc second" />
+    <option name="LAST_COMMIT_MESSAGE" value="poc second" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc2/AppPoc2.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/mk/MK.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/mk/MK.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/mk/MK.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/mk/MK.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/mk/MK.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/mk/MK.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/mk/MK.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc2/AppPoc2.java</url>
+          <line>22</line>
+          <properties class="com.ivangavlik.http.poc2.Microkernel" method="start">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
