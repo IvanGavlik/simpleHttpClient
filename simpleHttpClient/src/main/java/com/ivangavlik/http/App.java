@@ -44,11 +44,17 @@ import com.ivangavlik.http.microkernel.Microkernel;
  */
 public class App {
     public static void main(String[] args) {
-        String[] dependencyClasses = {"com.ivangavlik.http.microkernel.plugin.Dependency"};
+        /*
+        example
+        final String[] dependencyClasses = {"com.ivangavlik.http.microkernel.plugin.Dependency"};
         final String[] pluginClasses = {"com.ivangavlik.http.microkernel.plugin.HttpSend",
                 "com.ivangavlik.http.microkernel.plugin.HttpSendExtended"};
+         */
+
+        final String[] dependencyClasses = {};
+        final String[] pluginClasses = {"com.ivangavlik.http.basic.HttpRequestPlugin", "com.ivangavlik.http.basic.HttpGetRequestSwingPlugin"};
         new Microkernel(dependencyClasses, pluginClasses);
-        System.out.println("Calling plugin handler for my task 1");
+        System.out.println("App end");
     }
 
     /*   public static void main(String[] args) {

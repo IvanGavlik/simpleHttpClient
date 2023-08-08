@@ -1,9 +1,6 @@
 package com.ivangavlik.http.microkernel;
 
-import com.ivangavlik.http.microkernel.reflection.Dependency;
-import com.ivangavlik.http.microkernel.reflection.ExtensionPoint;
-import com.ivangavlik.http.microkernel.reflection.Plugin;
-import com.ivangavlik.http.microkernel.reflection.Start;
+import com.ivangavlik.http.microkernel.reflection.*;
 import com.ivangavlik.http.microkernel.reflection.process.StartUp;
 
 import java.lang.annotation.Annotation;
@@ -15,7 +12,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public final class Microkernel {
-    private HashMap<String, Object> instances = new HashMap<>();
+    private static HashMap<String, Object> instances = new HashMap<>();
 
     /**
      * 1. init all dependencies
@@ -48,6 +45,14 @@ public final class Microkernel {
         instances.values().stream()
                 .filter(el -> el.getClass().getDeclaredAnnotation(Plugin.class) != null)
                 .forEach(in -> runPluginStart(in));
+
+        List<Object> actionHandlers = instances.values().stream()
+                .filter(el -> el.getClass().getDeclaredAnnotation(Plugin.class) != null)
+                .filter(el -> Arrays.stream(el.getClass().getDeclaredMethods())
+                                .anyMatch(method ->  method.isAnnotationPresent(HandleAction.class)))
+                .collect(Collectors.toList());
+
+        ACTION.pluginActionList.addAll(actionHandlers);
     }
     private Object runConstructor(Class pluginClass) {
         for (int i = 0; i < pluginClass.getDeclaredConstructors().length; i++) {
@@ -139,8 +144,28 @@ public final class Microkernel {
 
         return instance;
     }
+    public static PluginActionManager ACTION = new PluginActionManager();
+    public static class PluginActionManager {
+        private List<Object> pluginActionList = new ArrayList<>();
+        public void emit(Object payload) {
 
+            pluginActionList.stream()
+                    .map(el -> el.getClass())
+                    .forEach(el -> {
+                        Arrays.stream(el.getMethods())
+                                .filter(method -> method.getDeclaredAnnotation(HandleAction.class) != null)
+                                .forEach(method -> {
+                                    try {
+                                        method.invoke(instances.get(el.getName()), payload);
+                                    } catch (IllegalAccessException e) {
+                                        throw new RuntimeException(e);
+                                    } catch (InvocationTargetException e) {
+                                        throw new RuntimeException(e);
+                                    }
+                                });
+                    });
+        }
 
-
+    }
 
 }

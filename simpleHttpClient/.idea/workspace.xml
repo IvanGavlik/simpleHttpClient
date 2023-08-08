@@ -5,79 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6a17d8-8906-4ffd-a070-5afd23f16618" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/basic/HttpGetRequestSwingPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/basic/HttpRequestPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/basic/HttpSendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/action/PluginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/HandleAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc/HttpBasic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc2/AppPoc2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc3/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc3/scratch.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc4/TracCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc4/scratch.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/mk/MK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/plugin/Dependency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/plugin/Dependency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/plugin/HttpSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/plugin/HttpSend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/plugin/HttpSendExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/plugin/HttpSendExtended.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/plugin/HttpSendInf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/plugin/HttpSendInf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/Dependency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/Dependency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/DependencyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/DependencyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/DependencyInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/DependencyInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/DiscoveringClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/DiscoveringClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/Extension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/Extension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/ExtensionPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/ExtensionPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/Plugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/Plugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/process/DependencyInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/process/DependencyInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/reflection/process/StartUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/process/StartUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5/scratch.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/scratch.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc/ExternalServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc/HttpBasic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc/InternalServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc/Microkernel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc2/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc2/AppPoc2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc2/ExternalService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc2/InternalService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc2/Microkernel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc3/Adapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc3/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc3/ESSequrity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc3/InternalServerGet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc3/Mk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc3/RecordBuileder$Record.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc3/RecordBuileder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc4/Component.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc4/ComponentManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc4/ExtensionPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc4/MyComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc4/MyComponent2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc4/MyExtensionPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc4/MyExtensionPointImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc4/TracCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/mk/MK$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/mk/MK$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/mk/MK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/plugin/Dependency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/plugin/HttpSend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/plugin/HttpSendExtended.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/plugin/HttpSendInf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/reflection/Dependency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/reflection/DependencyFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/reflection/DependencyInstance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/reflection/DiscoveringClasses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/reflection/Extension.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/reflection/ExtensionPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/reflection/Plugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/reflection/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/reflection/process/DependencyInstance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/reflection/process/StartUp$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ivangavlik/http/poc5/reflection/process/StartUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/Plugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/Plugin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,9 +24,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -132,6 +68,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ivangavlik.http.basic" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc5" />
       <recent name="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc4" />
@@ -267,7 +206,7 @@
       <workItem from="1690488252910" duration="3987000" />
       <workItem from="1690642913530" duration="1221000" />
       <workItem from="1691067524729" duration="5206000" />
-      <workItem from="1691503767291" duration="1089000" />
+      <workItem from="1691503767291" duration="7680000" />
     </task>
     <task id="LOCAL-00001" summary="poc first">
       <created>1686496009043</created>
@@ -283,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1686496032511</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Microkernel architecture start">
+      <option name="closed" value="true" />
+      <created>1691504988358</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691504988358</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +239,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="poc first" />
     <MESSAGE value="poc second" />
-    <option name="LAST_COMMIT_MESSAGE" value="poc second" />
+    <MESSAGE value="Microkernel architecture start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Microkernel architecture start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -327,6 +275,31 @@
           <line>83</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/poc2/AppPoc2.java</url>
           <line>22</line>
@@ -338,5 +311,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/simpleHttpClient$com_ivangavlik_http_App.ic" NAME="com.ivangavlik.http.App Coverage Results" MODIFIED="1691511198053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ivangavlik.http.*</FILTER>
+    </SUITE>
   </component>
 </project>
