@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6a17d8-8906-4ffd-a070-5afd23f16618" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/basic/HttpGetRequestSwingPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/basic/HttpRequestPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/basic/HttpSendRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/action/PluginAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/HandleAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/Plugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/reflection/Plugin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,28 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ivan/Documents/projects/simpleHttpClient/simpleHttpClient/src/main/java/com/ivangavlik/http/poc5",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ivan/Documents/projects/verifonAPIIntegration/clientSourceCode/collect-pos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Markdown"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.ivangavlik.http.basic" />
@@ -206,7 +198,15 @@
       <workItem from="1690488252910" duration="3987000" />
       <workItem from="1690642913530" duration="1221000" />
       <workItem from="1691067524729" duration="5206000" />
-      <workItem from="1691503767291" duration="7680000" />
+      <workItem from="1691503767291" duration="7776000" />
+      <workItem from="1692109249527" duration="35000" />
+      <workItem from="1692172027599" duration="2944000" />
+      <workItem from="1692210624773" duration="1084000" />
+      <workItem from="1692278426722" duration="1550000" />
+      <workItem from="1692287653280" duration="3567000" />
+      <workItem from="1692296446845" duration="9000" />
+      <workItem from="1692351572459" duration="4615000" />
+      <workItem from="1692363617103" duration="647000" />
     </task>
     <task id="LOCAL-00001" summary="poc first">
       <created>1686496009043</created>
@@ -230,7 +230,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691504988358</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Microkernel architecture handling communication">
+      <option name="closed" value="true" />
+      <created>1691511520888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691511520888</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove not needed">
+      <option name="closed" value="true" />
+      <created>1692352267257</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692352267257</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +256,9 @@
     <MESSAGE value="poc first" />
     <MESSAGE value="poc second" />
     <MESSAGE value="Microkernel architecture start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Microkernel architecture start" />
+    <MESSAGE value="Microkernel architecture handling communication" />
+    <MESSAGE value="remove not needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove not needed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -277,27 +295,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java</url>
-          <line>161</line>
+          <line>158</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java</url>
-          <line>154</line>
+          <line>151</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java</url>
-          <line>157</line>
+          <line>154</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ivangavlik/http/microkernel/Microkernel.java</url>
-          <line>160</line>
+          <line>157</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
